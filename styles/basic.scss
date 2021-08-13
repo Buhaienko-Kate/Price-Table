@@ -1,0 +1,17 @@
+.price-green-color {
+  background-color: $green-color;
+}
+
+.list-green-item:before {
+  content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  position: absolute;
+  top: 0;
+  left: 22px;
+}
+
+.green-btn {
+  background-color: $green-color;
+  margin: auto;
+  margin-top: 39px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,17 @@
+.price-orange-color {
+  background-color: $color-orange;
+}
+
+.list-orange-item:before {
+  content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  position: absolute;
+  top: 0;
+  left: 22px;
+}
+
+.orange-btn {
+  background-color: $color-orange;
+  margin: auto;
+  margin-top: 39px;
+  margin-bottom: 40px;
+}
