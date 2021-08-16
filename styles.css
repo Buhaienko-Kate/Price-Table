@@ -1,11 +1,89 @@
 .price-card__order-btn {
   width: 155px;
   height: 40px;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   text-align: center;
   color: #ffffff;
   border-radius: 20px;
+}
+
+.popular {
+  position: absolute;
+  top: 32px;
+  right: -30px;
+  transform: rotate(45deg);
+  width: 147px;
+  height: 25px;
+  line-height: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #dc3f45;
+  color: #ffffff;
+}
+
+.price-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-right: 18px;
+  max-width: 380px;
+  max-height: 770px;
+  overflow: hidden;
+  background-color: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+}
+.price-card:last-child {
+  margin-right: 0;
+}
+.price-card__title {
+  margin: 0;
+  margin-top: 33px;
+  line-height: 43px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+.price-card__subtitle {
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+.price-card__price {
+  margin-top: 33px;
+  width: 100%;
+  line-height: 105px;
+  font-weight: 700;
+  font-size: 55px;
+  text-align: center;
+}
+.price-card__description {
+  margin: 40px 26px;
+  line-height: 18px;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+}
+.price-card__options-list {
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+  font-weight: 300;
+  font-size: 15px;
+  list-style-type: none;
+}
+.price-card__options-list-item {
+  position: relative;
+  padding-left: 59px;
+  width: 100%;
+  line-height: 50px;
+}
+.price-card__options-list-item:nth-child(odd) {
+  background-color: #2a3438;
 }
 
 .price-green-color {
@@ -20,10 +98,10 @@
 }
 
 .green-btn {
-  background-color: #5bb189;
   margin: auto;
   margin-top: 39px;
   margin-bottom: 40px;
+  background-color: #5bb189;
 }
 
 .price-blue-color {
@@ -38,26 +116,10 @@
 }
 
 .blue-btn {
-  background-color: #3a6ba5;
   margin: auto;
   margin-top: 39px;
   margin-bottom: 40px;
-}
-
-.popular {
-  background: #dc3f45;
-  transform: rotate(45deg);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 25px;
-  color: #ffffff;
-  width: 147px;
-  height: 25px;
-  text-align: center;
-  text-transform: uppercase;
-  position: absolute;
-  top: 32px;
-  right: -30px;
+  background-color: #3a6ba5;
 }
 
 .price-orange-color {
@@ -72,10 +134,10 @@
 }
 
 .orange-btn {
-  background-color: #ec632a;
   margin: auto;
   margin-top: 39px;
   margin-bottom: 40px;
+  background-color: #ec632a;
 }
 
 * {
@@ -89,75 +151,12 @@ html {
 }
 
 .price-tables {
-  background-color: #141b1c;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   padding: 115px 132px;
-}
-
-.price-card {
-  position: relative;
-  overflow: hidden;
-  background-color: #334247;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  display: flex;
-  flex-direction: column;
-  max-width: 380px;
-  max-height: 770px;
-  margin-right: 18px;
-}
-.price-card:last-child {
-  margin-right: 0;
-}
-.price-card__title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 43px;
-  text-align: center;
-  margin: 0;
-  margin-top: 33px;
-}
-.price-card__subtitle {
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-}
-.price-card__price {
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 105px;
-  text-align: center;
-  width: 100%;
-  margin-top: 33px;
-}
-.price-card__description {
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 18px;
-  text-align: center;
-  margin: 40px 26px;
-}
-.price-card__options-list {
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 50px;
-  margin: 0;
-  list-style-type: none;
-  padding: 0;
-}
-.price-card__options-list-item {
-  line-height: 50px;
-  padding-left: 14px;
-  width: 100%;
-  padding-left: 59px;
-  position: relative;
-}
-.price-card__options-list-item:nth-child(odd) {
-  background-color: #2a3438;
+  height: 100vh;
+  background-color: #141b1c;
 }
 
 /*# sourceMappingURL=styles.css.map */
