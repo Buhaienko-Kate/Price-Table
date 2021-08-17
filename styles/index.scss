@@ -1,6 +1,4 @@
 @import 'variables.scss';
-@import 'common.scss';
-@import 'price-card.scss';
 
 * {
   box-sizing: border-box;
@@ -11,7 +9,8 @@ html {
   font-size: 15px;
   color: $color-white;
 }
-
+@import 'common.scss';
+@import 'price-card.scss';
 .price-tables {
   display: flex;
   justify-content: center;

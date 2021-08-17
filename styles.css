@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+
 .price-card__order-btn {
   width: 155px;
   height: 40px;
@@ -138,16 +148,6 @@
   margin-top: 39px;
   margin-bottom: 40px;
   background-color: #ec632a;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  color: #ffffff;
 }
 
 .price-tables {
